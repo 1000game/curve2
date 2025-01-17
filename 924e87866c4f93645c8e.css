@@ -2,4 +2,9 @@ canvas {
     position: fixed;
     top: 0;
     left: 0;
+    html, body {
+  overscroll-behavior: none; /* Prevent pull-to-refresh */
+  overflow: hidden;          /* Disable scrolling on the body */
+}
+
 };
